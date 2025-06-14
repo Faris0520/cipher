@@ -1,0 +1,92 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: url('../static/2_Tokyo_Night.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgb(18 17 17 / 86%);
+    border-radius: 20px;
+    padding: 40px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 7%;
+    font-weight: 100;
+    font-size: 100%;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+textarea, input[type="number"] {
+    width: 100%;
+    margin-top: 8px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    resize: none;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+textarea::placeholder, input::placeholder {
+    color: #eeeeee89;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.25);
+    color: #fff;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.35);
+}
+
+.hasil {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}

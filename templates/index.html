@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Caesar Cipher - Faris</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Enkripsi Caesar Cipher</h1>
+        <h2>By: Faris Daffa</h2>
+        <form method="post">
+            <label for="text">Masukkan Teks:</label>
+            <textarea name="text" id="text" rows="4" placeholder="Tulis pesan di sini..." required></textarea>
+
+            <label for="shift">Masukkan Shift (angka):</label>
+            <input type="number" name="shift" id="shift" placeholder="Contoh: 3" required>
+
+            <button name="action" value="encrypt">Enkripsi</button>
+            <button name="action" value="decrypt">Dekripsi</button>
+        </form>
+
+        {% if hasil %}
+            <div class="hasil">
+                <h3>Hasil:</h3>
+                <p>{{ hasil }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
