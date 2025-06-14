@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    background: url('../static/2_Tokyo_Night.png') no-repeat center center fixed;
+    background: url('https://raw.githubusercontent.com/Faris0520/cipher/refs/heads/main/static/2_Tokyo_Night%20(1).jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
